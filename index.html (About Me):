@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Page</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! My name is Erwin Paul Comicho Caoile, 20 year old, currently studying University of Cordillera 
+            pursuing Bachelor of Science in Information Technology.<p>
+        <p>I'm passionate about exploring bike trails and experiencing the great outdoors. 
+            Whether it's a smooth ride through the countryside or a challenging mountain trail, I love the thrill and freedom that biking offers.<p>    
+        <p>I previously attended Saint Louis University, where I studied Bachelor of Science in Architecture BS Archi. Suddently I transitioning from a Bachelor of Science Architecture BS Archi to 
+            Bachelor of Science in Information Technology BS IT can be both exciting and challenging.<p>         
+
+
+    </section>
+
+    <section>
+        <h2>My Picture</h2>
+        <img src="c:\Users\ASUS\Downloads\IMG-2215.JPG"  alt="Nick name Earl" width="300" height="300">
+
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/p/C_o_kfZSk0j/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">instagram</a>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies & Interests</title>
+</head>
+<body>
+    <header>
+        <h1>My Hobbies and Interests</h1>
+    </header>
+
+    <section>
+        <h2>Bike Trails</h2>
+        <p>I love exploring different bike trails, whether its a peaceful ride through the countryside or a thrilling mountain biking adventure.
+            Riding allows me to connect with nature, stay active, and discover new places.</p>
+    </section>
+
+
+    <section>
+        <h2>Other Interests</h2>
+        <ul>
+            <li>Reading about fitness and wellness</li>
+            <li>Exploring new technologies</li>
+            <li>Playing arm wrestling</li>
+            <li>Go some joy ride</li>
+            <il>Go to gym to become physically fit</il>
+        </ul>
+    </section>
