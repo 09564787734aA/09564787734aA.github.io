@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class DecimalToBinaryConverter {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            String userInput;
+            
+            System.out.println("Welcome to the Decimal to Binary Converter!");
+            
+            while (true) {
+                System.out.print("Enter a decimal number (or type 'STOP' to exit): ");
+                userInput = scanner.nextLine();
+                
+                if (userInput.equalsIgnoreCase("STOP")) {
+                    System.out.println("Program terminated / USTON ADI WAH! charot!.");
+                    break;
+                }
+                
+                try {
+                    int decimalNumber = Integer.parseInt(userInput);
+                    String binaryNumber = Integer.toBinaryString(decimalNumber); // Convert to binary
+                    System.out.println(decimalNumber + " -> " + binaryNumber);
+                } catch (NumberFormatException e) {
+                    System.out.println("Please enter a valid decimal number.");
+                }
+            }
+        }
+    }
+}
