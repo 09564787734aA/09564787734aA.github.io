@@ -1,0 +1,51 @@
+package grocery.shopping.calculator;
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author m303user
+ */
+public class GroceryShoppingCalculator {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+             Scanner Ærl = new Scanner(System.in);
+             System.out.print("Enter first item price 1: ");
+             int firstPrice = Ærl.nextInt();
+             
+             System.out.print("Enter the quantity of item 1:");
+             int firstQuantity = Ærl.nextInt();
+             
+             System.out.print("Enter the price of item 2:");
+             int secondPrice = Ærl.nextInt();
+             
+             System.out.print("Enter the quantity of the item 2:");
+             int secondQuantity = Ærl.nextInt();
+             
+             System.out.print("Enter third price of item 3:");
+             int thirdPrice = Ærl.nextInt();
+             
+             System.out.print("Enter the quantity of the item 3:");
+             int thirdQuantity = Ærl.nextInt();
+             
+             int subTotal = (firstPrice * firstQuantity) + (secondPrice * secondQuantity) + (thirdPrice * thirdQuantity);
+             double Discount = .05*subTotal;
+             double SaleTax = .12*(subTotal - Discount);
+             double FinalTotal = (subTotal - Discount) + SaleTax;
+             
+             System.out.println("subTotal:" + subTotal);
+             System.out.println("Discount:" + Discount );
+             System.out.println("SalesTax:" + SaleTax);
+             System.out.println("FinalTotal:" + FinalTotal);
+           
+            
+             
+            
+         
+    }
+    
+}
